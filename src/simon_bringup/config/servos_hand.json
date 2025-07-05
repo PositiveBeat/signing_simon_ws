@@ -1,6 +1,8 @@
 {
     "group": {
-        "name": "hand"
+        "name": "hand",
+        "topic_name": "/joint_states_hand",
+        "driver_name": "PCA9685"
     },
     "servos": {
         "joint_hand_pinky": {
