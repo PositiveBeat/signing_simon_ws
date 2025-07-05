@@ -1,0 +1,17 @@
+# ROS 2 build folders
+build/
+install/
+log/
+
+# Colcon / ROS 2
+.colcon/
+*.log
+*.pyc
+__pycache__/
+
+# VSCode
+.vscode/
+
+# Python virtual environments
+venv/
+.env/
