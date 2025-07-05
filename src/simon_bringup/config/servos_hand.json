@@ -1,0 +1,19 @@
+{
+    "group": {
+        "name": "hand"
+    },
+    "servos": {
+        "joint_hand_pinky": {
+            "servo_id": 1,
+            "dir": 1,
+            "gear_ratio": 1,
+            "pwm_min": 2400,
+            "pwm_max": 9600,
+            "angle_min": 0,
+            "angle_max": 180,
+            "angle_software_min": 0,
+            "angle_software_max": 180,
+            "default_position": 0
+        }
+    }
+}
