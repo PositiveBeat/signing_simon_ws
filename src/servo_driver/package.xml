@@ -3,7 +3,7 @@
 <package format="3">
   <name>servo_driver</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Hardware interface for servos.</description>
   <maintainer email="nicoline@finman.dk">tbeats</maintainer>
   <license>TODO: License declaration</license>
 
