@@ -3,6 +3,7 @@ Servo driver node.
 """
 
 import json
+import numpy as np
 import os
 
 from ament_index_python.packages import get_package_share_directory
@@ -65,7 +66,7 @@ class ServoDriverNode(Node):
         self.servo_commands = {}
 
     def callback_joint_states(self, msg):
-        self.servo_commands.update(dict(zip(msg.name, msg.position)))
+        self.servo_commands.update(dict(zip(msg.name, np.rad2deg(msg.position))))
 
     def callback_timer(self):
         if not self.servo_commands:
