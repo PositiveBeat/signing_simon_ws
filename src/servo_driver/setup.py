@@ -19,7 +19,7 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            f"servo_driver_node = {package_name}.servo_driver_node:main",
+            f"servo_driver_node = {package_name}.servo_driver_node:main"
         ],
     },
 )
