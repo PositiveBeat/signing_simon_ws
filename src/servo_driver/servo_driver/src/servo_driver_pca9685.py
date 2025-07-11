@@ -15,7 +15,7 @@ class ServoDriverPCA9685(ServoDriver):
 
         try:
             i2c = board.I2C()
-            pca = PCA9685(i2c)
+            pca = PCA9685(i2c, address=0x41)
             pca.frequency = 50
 
             self.logger.info("I2C communication succesful")
