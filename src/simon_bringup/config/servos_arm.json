@@ -5,8 +5,8 @@
         "driver_name": "PCA9685"
     },
     "servos": {
-        "joint_hand_pinky": {
-            "servo_id": 0,
+        "joint_test": {
+            "servo_id": 1,
             "dir": 1,
             "gear_ratio": 1,
             "pwm_min": 2400,

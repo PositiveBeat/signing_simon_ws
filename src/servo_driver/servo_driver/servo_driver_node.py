@@ -38,6 +38,7 @@ class ServoDriverNode(Node):
         )
 
         json_files = [
+            f"{config_folder_path}/servos_arm.json",
             f"{config_folder_path}/servos_hand.json",
         ]
 
