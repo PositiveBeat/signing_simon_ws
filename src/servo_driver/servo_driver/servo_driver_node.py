@@ -79,6 +79,8 @@ class ServoDriverNode(Node):
         for servo_driver in self.servo_drivers:
             servo_driver.command_servos(self.servo_commands)
 
+        self.servo_commands = {}
+
 
 def main(args=None):
     rclpy.init(args=args)
